@@ -1,0 +1,52 @@
+h2 {
+    color: #6bf545;
+    background-color: #f1c7c7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul:nth-of-type(1) li {
+    background-color: #e99696; 
+}
+
+ul:nth-of-type(2) li {
+    background-color: #a6ee8c; 
+}
+
+ul:nth-of-type(3) li {
+    background-color: #94b9f0; 
+}
+
+ul:nth-of-type(4) li {
+    background-color: #ed2c1a; 
+}
+
+ul:nth-of-type(5) li {
+    background-color: #b04c71; 
+}
+
+ul li:hover {
+    background-color: #c8e04d;
+    cursor: pointer;
+}
+
+ul li:first-child {
+    font-weight: bold;
+}
+
+ul li:last-child {
+    font-style: italic;
+}
+
+ul li a:active {
+    background-color: #41cee3;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #e5e829;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
